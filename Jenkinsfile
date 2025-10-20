@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_ACCOUNT_ID     = 'YOUR_AWS_ACCOUNT_ID'
+        AWS_ACCOUNT_ID     = '034244633858'
         AWS_DEFAULT_REGION = 'ap-northeast-2'
         IMAGE_REPO_NAME    = 'memo-api'
         // EKS Deployment 정보를 변수로 관리하면 편리합니다.
