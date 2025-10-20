@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID     = '034244633858'
         AWS_DEFAULT_REGION = 'ap-northeast-2'
-        IMAGE_REPO_NAME    = 'memo-api'
+        IMAGE_REPO_NAME    = 'my-spring-app'
         // EKS Deployment 정보를 변수로 관리하면 편리합니다.
         EKS_CLUSTER_NAME   = 'my-eks-cluster'
         EKS_DEPLOYMENT_NAME= 'memo-api-deployment'
